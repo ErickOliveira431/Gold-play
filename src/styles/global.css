@@ -1,0 +1,30 @@
+/* RESET */
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* o root diz que pode ser acessado de qualque lgar feito para fazer as variaveis */
+/* sempre coloque dois -- antes para chamar mais facil */
+/* pegue do figma */
+:root{
+    --color-brand: #F5b700;
+    --color-foregroud:#F9F9F9;
+    --color-surface:#2A2A35;
+    --color-gray:#2A2A2A;
+    --color-black:#1A1A1A;                  
+
+    /* aqui e as fonte que vc ira pegar do figma */
+    --font-size-h1: 40px;
+    --font-size-h2: 35px;
+    --font-size-h3: 30px;
+    --font-size-h4: 25px;    
+    --font-size-h5: 20px;    
+    
+    /* inport as fontes */
+    --font-title:"Bebas Neue", sans-serif;
+    --font-body:"Inter", sans-serif;
+}
